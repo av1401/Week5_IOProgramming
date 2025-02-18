@@ -9,7 +9,7 @@ import java.io.IOException;
 public class Search {
     public static void main(String[] args) {
         // Define the file path of the CSV file
-        String path = "C:\\Users\\abhishek vishwakarma\\Desktop\\Capgemini\\Week5_IOProgramming\\Day1_CsvDataHandling\\src\\main\\resources\\Employee.csv";
+        String path = "C:\\Users\\abhishek vishwakarma\\Desktop\\Capgemini\\Week5_IOProgramming\\Day1_CsvDataHandling\\src\\main\\resources\\Employees.csv";
 
         // Try-with-resources to automatically close the reader after execution
         try (CSVReader reader = new CSVReader(new FileReader(path))) {
