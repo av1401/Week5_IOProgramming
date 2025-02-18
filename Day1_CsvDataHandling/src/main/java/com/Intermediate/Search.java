@@ -24,7 +24,7 @@ public class Search {
 
                 if (name.equalsIgnoreCase("Abhishek")) {
                     // Print the found employee details
-                    System.out.println("Found employee: " + name + " with ID: " + lines[0]);
+                    System.out.println("Found employee: " + name + ", with ID: " + lines[0] + ", depatment : " + lines[2] + ", Salary :" + lines[3]);
                     break;  // Exit loop once the employee is found
                 }
             }
