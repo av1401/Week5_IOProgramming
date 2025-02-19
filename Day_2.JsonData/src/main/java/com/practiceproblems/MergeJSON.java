@@ -10,7 +10,7 @@ import java.io.IOException;
 public class MergeJSON {
     public static void main(String[] args) {
         try{
-            // Read the JSON file.
+            // Read the JSON file
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode file1 = objectMapper.readTree(new File("C:\\Users\\abhishek vishwakarma\\Desktop\\Capgemini\\Week5_IOProgramming\\Day_2.JsonData\\src\\main\\resources\\JsonData.json"));
             JsonNode  file2 = objectMapper.readTree(new File("C:\\Users\\abhishek vishwakarma\\Desktop\\Capgemini\\Week5_IOProgramming\\Day_2.JsonData\\src\\main\\resources\\JSONData2.json"));
