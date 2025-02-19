@@ -31,7 +31,7 @@ public class ReadSpecific {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
 
-            // Use correct file path
+            //file path
             File file = new File("C:/Users/abhishek vishwakarma/Desktop/Capgemini/Week5_IOProgramming/Day_2.JsonData/src/main/resources/JsonData.json");
 
             // Read JSON from file and map to User object
