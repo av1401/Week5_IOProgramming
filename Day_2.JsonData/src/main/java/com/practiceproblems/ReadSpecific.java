@@ -9,7 +9,7 @@ class User {
     private int age;
     private String email;
 
-    // Default constructor (required for Jackson)
+    // Default constructor required for Jackson
     public User() {}
 
     // Getters & Setters
