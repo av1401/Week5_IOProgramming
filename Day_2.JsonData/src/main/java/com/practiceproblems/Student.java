@@ -4,6 +4,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class Student {
+    
     public static void main(String[] args) {
 
         //Create a json object
