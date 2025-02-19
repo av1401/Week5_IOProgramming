@@ -12,6 +12,9 @@ class User {
     // Default constructor required for Jackson
     public User() {}
 
+    public User(String bob, int i, String mail) {
+    }
+
     // Getters & Setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
