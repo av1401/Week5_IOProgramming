@@ -1,7 +1,7 @@
 package com.practiceproblems;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-//Class Car.
+//Class Car
 class Car{
     public String brand;
     public String model;
